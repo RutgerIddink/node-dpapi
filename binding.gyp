@@ -8,7 +8,7 @@
         "include"
       ],
       "libraries": [
-        "-lcrypt32.lib"
+        # "-lcrypt32.lib"
       ]
     }
   ]
