@@ -9,8 +9,6 @@ v8::Local<v8::String> CreateUtf8String(v8::Isolate* isolate, char* strData)
 
 #ifdef _WIN32
 
-#pragma comment( lib, "lcrypt32" )
-
 #include <Windows.h>
 #include <dpapi.h>
 
